@@ -3,7 +3,7 @@ import React from "react";
 export default function MainImage() {
   return (
     <div className="flex justify-center">
-      <div className=" relative md:w-3/5 lg:w-3/4 xl:w-7/12 mt-32 p-5">
+      <div className=" relative md:w-3/4 lg:w-3/4 xl:w-7/12 mt-32 p-5">
         <img
           src="/images/judgesGavel.jpg"
           alt="Judges Gavel"
@@ -15,7 +15,7 @@ export default function MainImage() {
           </h2>
           <div className="mt-5 font-serif text-xl">
             <p>(682)-224-1478</p>
-            <p>Serving since 1993 | Family Owned | Harvard Graduates</p>
+            <p>Serving since 1993 | Family Owned | Middleton Students</p>
           </div>
         </div>
       </div>

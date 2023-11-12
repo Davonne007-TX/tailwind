@@ -26,7 +26,7 @@ export default function Project3() {
       <div className="overflow-y-auto">
         <MainImage />
 
-        <div className="grid grid-cols-2 mt-28 p-10 gap-10 w-3/5 ml-auto mr-auto">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-28 p-10 gap-10 w-3/5 ml-auto mr-auto">
           <img src="/images/lawyers.jpg" />
 
           <p className="font-serif">
