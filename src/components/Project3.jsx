@@ -1,10 +1,21 @@
 // import { Link } from "react-router-dom";
 
+import { useNavigate } from "react-router-dom";
+
 export default function Project3() {
+  const navigate = useNavigate();
+
+  function goToHome() {
+    navigate("/");
+  }
+
   return (
     <>
       <div className="bg-red-900 w-full h-32 fixed top-0 left-0 flex justify-between items-center">
-        <h1 className="ml-20 mt-5 text-3xl font-playfair font-bold ">
+        <h1
+          className="ml-20 mt-5 text-3xl font-playfair font-bold cursor-pointer"
+          onClick={goToHome}
+        >
           Keating and Associates{" "}
         </h1>
         <nav className="flex gap-5 mr-10 font-playfair cursor-pointer text-xl">
