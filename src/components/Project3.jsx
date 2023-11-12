@@ -1,9 +1,17 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Project3() {
   return (
-    <Link to="/" className="text-black flex justify-center mt-8 font-lobster">
-      Project 3
-    </Link>
+    <div className="bg-red-900 w-full h-32 fixed top-0 left-0 flex justify-between items-center">
+      <h1 className="ml-20 mt-5 text-3xl font-playfair font-bold ">
+        Keating and Associates{" "}
+      </h1>
+      <nav className="flex gap-5 mr-10 font-playfair cursor-pointer text-xl">
+        <ul className="hover:text-white">About</ul>
+        <ul className="hover:text-white">Criminal Law</ul>
+        <ul className="hover:text-white">Civil Law</ul>
+        <ul className="hover:text-white">Contact</ul>
+      </nav>
+    </div>
   );
 }

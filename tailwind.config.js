@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         lobster: "'Lobster', cursive",
+        playfair: "'Playfair Display SC', serif",
       },
     },
   },
