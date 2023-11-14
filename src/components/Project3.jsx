@@ -1,28 +1,10 @@
-import { useNavigate } from "react-router-dom";
 import MainImage from "./MainImage";
-import NavigationLinks from "./NavigationLinks";
+import Header from "./Header";
 
 export default function Project3() {
-  const navigate = useNavigate();
-
-  function goToHome() {
-    navigate("/");
-  }
-
   return (
     <>
-      <header className="bg-red-900 w-full h-24 flex justify-between items-center">
-        {" "}
-        {/* trying to get this to be fixed and have the rest of the content scroll*/}
-        <h1
-          className="ml-20 mt-5 text-3xl font-playfair font-bold cursor-pointer"
-          onClick={goToHome}
-        >
-          Keating and Associates{" "}
-        </h1>
-        <NavigationLinks />
-      </header>
-
+      <Header />
       <div className="overflow-y-auto">
         <MainImage />
 
