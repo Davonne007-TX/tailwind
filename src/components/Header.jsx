@@ -9,7 +9,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-red-900 w-full h-28 flex justify-between items-center sm:h-72 ">
+    <header className="bg-red-900 w-full lg:h-24 flex justify-between items-center sm:h-72 ">
       {" "}
       {/* trying to get this to be fixed and have the rest of the content scroll*/}
       <h1

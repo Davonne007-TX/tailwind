@@ -8,10 +8,13 @@ export default function Project3() {
       <div className="overflow-y-auto">
         <MainImage />
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-28 p-10 gap-10 w-3/5 ml-auto mr-auto">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-28 p-5 gap-8 w-3/5 ml-auto mr-auto">
           <img src="/images/lawyers.jpg" />
 
           <p className="font-serif">
+            <pre className="font-bold mb-5 font-playfair text-xl">
+              We work for you, the Client
+            </pre>
             Nunc eu tempus nisl. Vivamus mattis quam vitae magna fermentum
             interdum. In vel tristique est, vitae luctus tellus. Proin ornare
             enim ut neque lobortis, ac aliquam nisl tincidunt. Mauris elit
@@ -23,6 +26,9 @@ export default function Project3() {
           <img src="/images/theLaw.jpg" />
 
           <p className="font-serif">
+            <pre className="font-bold mb-5 font-playfair text-xl">
+              Strong Litigation Team
+            </pre>
             Integer nec porttitor est. Phasellus facilisis egestas libero sed
             varius. Sed semper nibh quis metus finibus, in blandit lectus
             elementum. Nam in felis efficitur, tincidunt orci et, congue neque.
