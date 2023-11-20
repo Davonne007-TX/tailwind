@@ -9,7 +9,7 @@ export default function Project1() {
     <div>
       <h2
         onClick={goHome}
-        className="flex justify-center cursor-pointer mt-8 font-lobster text-black text-6xl mt-20"
+        className="flex justify-center cursor-pointer mt-8 font-lobster text-black text-6xl mt-20 hover:text-orange-400"
       >
         Favorite Sport
       </h2>
